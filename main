@@ -4,7 +4,7 @@
 #include "dodawanie.cpp"
 #include "odejmowanie.cpp"
 #include "dzielenie.cpp"
-#include "mnożenie.cpp"
+#include "mnozenie.cpp"
 
 using namespace std;
 
