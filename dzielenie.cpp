@@ -1,6 +1,12 @@
 double dzielenie(double a,double b){
-if(a|b==0)return 0;
-double wynik=double(a/b);
-  if(wynik==(a/b))return a/b'
-    else return 0;
+  /*  jesli b==0
+  
+  */
+if(b==0){
+  *b=-1;
+  return -1;
+}
+  else{
+    return a/b;
+  }
 }
