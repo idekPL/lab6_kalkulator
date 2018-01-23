@@ -1,5 +1,7 @@
-double odejmowanie(double a, double b)
+double odejmowanie(double a, double *b)
 {
-if(a<0 && b<0 && (a-b)>0){return 0;}
+if(a<0 && b<0 && (a-b)>0){
+  *b=-1;
+  return -1;}
 return a-b;
 }
