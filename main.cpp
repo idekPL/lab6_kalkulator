@@ -30,7 +30,7 @@ switch(wybor)
     }
   case 2:
     {
-    cout<<odejmowanie(a,b);
+    cout<<odejmowanie(a, b);
     break;  
     }  
   case 3:
@@ -40,7 +40,7 @@ switch(wybor)
     }
   case 4:
     {
-    cout<<dzielenie(a, b);
+    cout<<dzielenie(a, *b);
     break;  
     }    
 }    
