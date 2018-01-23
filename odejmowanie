@@ -1,5 +1,6 @@
 double odejmowanie(double a, double *b)
 {
+/* jeseli wykryjemy przepelnienie to b jest ustawiane na -1, oraz zwracamy wartość -1;*/
 if(a<0 && b<0 && (a-b)>0){
   *b=-1;
   return -1;}
